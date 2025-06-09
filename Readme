@@ -47,7 +47,7 @@ Blockchain Simulation - GitHub Repository
 
  ⚙️ How to Run  
 ```bash
-git clone https://github.com/Harish-SS56/mini-blockchain-simulation
+git clone https://github.com/Harish-SS56/blockchain_simulation
 cd mini-blockchain-simulation
 node blockchain_simulation.js
 node mining_simulation.js
