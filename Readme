@@ -1,0 +1,60 @@
+Blockchain Simulation - GitHub Repository  
+
+ 1. Blockchain Simulation  
+- What it does:  
+  - Creates 3 linked blocks (Genesis → Block 1 → Block 2).  
+  - Tamper with Block 1 → Breaks chain integrity (hashes mismatch).  
+- Key Learnings:  
+  - Immutability: Changing one block invalidates all subsequent blocks.  
+  - Block Structure: `index`, `data`, `previousHash`, `hash`, `nonce`.  
+
+
+
+
+
+
+ 2. Proof-of-Work Mining  
+- What it does:  
+  - Mines a block until its hash starts with "0000".  
+  - Tracks nonce attempts and time taken.  
+- Key Learnings:  
+  - Energy Cost: Higher difficulty = More computations → More energy.  
+  - Security: Miners compete to solve puzzles to add blocks.  
+
+
+
+
+
+
+ 3. Consensus Mechanisms  
+- What it simulates:  
+  - PoW: Select validator with highest computational power.  
+  - PoS: Select validator with highest cryptocurrency stake.  
+  - DPoS: Delegates elected via voting.  
+- Key Learnings:  
+  - PoW: Secure but energy-heavy.  
+  - PoS/DPoS: Energy-efficient but requires trust/stakes.  
+
+
+
+ Real-World Use Cases  
+1. Supply Chain:  
+   - Track products from farm to shelf (e.g., Walmart).  
+   - Detect fraud instantly.  
+2. Digital Identity:  
+   - Store IDs on-chain (e.g., Estonia’s e-Residency).  
+   - No central database to hack.  
+
+ ⚙️ How to Run  
+```bash
+git clone https://github.com/Harish-SS56/mini-blockchain-simulation
+cd mini-blockchain-simulation
+node blockchain_simulation.js
+node mining_simulation.js
+node consensus_demo.js
+```
+
+
+
+
+
