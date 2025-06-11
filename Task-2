@@ -1,0 +1,26 @@
+Blockchain Platform Comparison Table:
+
+| Blockchain Name     | Type        | Consensus Mechanism     | Permission Model | Speed / Throughput | Smart Contract Support     | Token Support     | Typical Use Case                          | Notable Technical Feature                   |
+|---------------------|-------------|--------------------------|------------------|---------------------|-----------------------------|-------------------|-------------------------------------------|---------------------------------------------|
+| Ethereum            | Public      | Proof of Stake (PoS)     | Open             | ~30 TPS (Layer 1)   | Yes (Solidity, Vyper)       | Yes (ETH native)  | Decentralized applications (DeFi, NFTs)   | EVM-based smart contracts, global adoption  |
+| Hyperledger Fabric  | Private     | Pluggable (default: Raft)| Permissioned     | ~1000 TPS           | Yes (Chaincode in Go, Java) | No native token   | Internal enterprise apps, asset tracking  | Modular architecture, channel-based privacy |
+| R3 Corda            | Consortium  | Notary-based (Raft/BFT)  | Permissioned     | ~170 TPS            | Yes (Kotlin, Java)          | No native token   | Inter-bank settlements, trade finance     | Point-to-point messaging, legal prose link  |
+
+Technical Comparison Report
+
+Ethereum is a well-known public blockchain that runs on Proof of Stake, offering open access to anyone. It supports powerful smart contracts using Solidity and is widely used for decentralized applications like DeFi and NFTs. However, its base layer throughput is relatively low, and scalability depends on Layer 2 solutions.
+
+Hyperledger Fabric, on the other hand, is a private blockchain designed for enterprise use. It features a modular structure with pluggable consensus and strong data privacy via channels. With high transaction throughput (~1000 TPS), it's suitable for internal systems but doesn't have a native token system, focusing more on business workflows.
+
+R3 Corda, a consortium blockchain, is designed specifically for regulated industries like banking. It enables secure, private, point-to-point communication and supports smart contracts written in Java or Kotlin. Its notary-based consensus offers both flexibility and finality, making it ideal for complex inter-organization processes.
+
+Platform Recommendations:
+
+Decentralized App: Ethereum – due to global support, public access, and active smart contract ecosystem.
+
+Supply Chain Network: Hyperledger Fabric – because of high speed, modular privacy, and permissioned control.
+
+Inter-bank Financial Application: R3 Corda – because it handles legal agreements, offers privacy, and fits finance workflows well.
+
+
+Each platform shines in a different context depending on the level of trust, privacy, and control required.
